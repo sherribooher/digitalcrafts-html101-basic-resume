@@ -1,0 +1,69 @@
+body {
+  background-color: lightgray;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: darkmagenta;
+  font-family: monospace, 'Courier New'
+}
+
+h3 {
+  color: black;
+  font-family: monospace, 'Courier New';
+  margin-top: -20px;
+  margin-left: 10px;
+}
+
+.self-img {
+  border-radius: 10%;
+}
+
+h1:hover {
+  transform: scale(2, 2);
+}
+
+.disclaimer {
+  font-weight: bold;
+  font-style: italic;
+  color: green;
+}
+
+main, footer {
+  margin-left: 10%;
+}
+
+#skills {
+  display: block;
+  position: relative;
+  background-color: red;
+  width: 600px;
+  padding: 2px 0px 5px 10px;
+  height: 105%;
+}
+
+#work-experience {
+  display: block;
+  position: relative;
+  background-color: blue;
+  color: whitesmoke;
+  width: 600px;
+  height: 105%; 
+  padding: 2px 0px 5px 10px;
+}
+
+#projects {
+  display: block;
+  position: relative;
+  width: 598px;
+  height: 105%;
+  padding: 2px 0px 5px 10px;
+  border: 1px solid black;
+}
+
+.logo:hover {
+  transform: rotate(100deg);
+}
